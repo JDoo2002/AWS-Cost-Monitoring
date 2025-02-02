@@ -4,6 +4,8 @@
 This project automates **AWS cost monitoring** using **Terraform, AWS Lambda, and Amazon QuickSight**.  
 It provides **real-time cost tracking**, **security insights**, and a **dashboard for visual analysis**.  
 
+🌍 **Live Demo:** [https://web-production-589c.up.railway.app/dashboard]
+
 ## 🛠️ Tech Stack  
 - **AWS Lambda** → Automates cost and security data collection.  
 - **Terraform** → Deploys AWS resources.  
