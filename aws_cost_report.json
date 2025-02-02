@@ -1,0 +1,100 @@
+[
+  {
+    "TimePeriod": {
+      "Start": "2025-01-26",
+      "End": "2025-01-27"
+    },
+    "Total": {
+      "UnblendedCost": {
+        "Amount": "0",
+        "Unit": "USD"
+      }
+    },
+    "Groups": [],
+    "Estimated": true
+  },
+  {
+    "TimePeriod": {
+      "Start": "2025-01-27",
+      "End": "2025-01-28"
+    },
+    "Total": {
+      "UnblendedCost": {
+        "Amount": "0",
+        "Unit": "USD"
+      }
+    },
+    "Groups": [],
+    "Estimated": true
+  },
+  {
+    "TimePeriod": {
+      "Start": "2025-01-28",
+      "End": "2025-01-29"
+    },
+    "Total": {
+      "UnblendedCost": {
+        "Amount": "0",
+        "Unit": "USD"
+      }
+    },
+    "Groups": [],
+    "Estimated": true
+  },
+  {
+    "TimePeriod": {
+      "Start": "2025-01-29",
+      "End": "2025-01-30"
+    },
+    "Total": {
+      "UnblendedCost": {
+        "Amount": "0",
+        "Unit": "USD"
+      }
+    },
+    "Groups": [],
+    "Estimated": true
+  },
+  {
+    "TimePeriod": {
+      "Start": "2025-01-30",
+      "End": "2025-01-31"
+    },
+    "Total": {
+      "UnblendedCost": {
+        "Amount": "0",
+        "Unit": "USD"
+      }
+    },
+    "Groups": [],
+    "Estimated": true
+  },
+  {
+    "TimePeriod": {
+      "Start": "2025-01-31",
+      "End": "2025-02-01"
+    },
+    "Total": {
+      "UnblendedCost": {
+        "Amount": "0.009408602",
+        "Unit": "USD"
+      }
+    },
+    "Groups": [],
+    "Estimated": true
+  },
+  {
+    "TimePeriod": {
+      "Start": "2025-02-01",
+      "End": "2025-02-02"
+    },
+    "Total": {
+      "UnblendedCost": {
+        "Amount": "0.0252976184",
+        "Unit": "USD"
+      }
+    },
+    "Groups": [],
+    "Estimated": true
+  }
+]

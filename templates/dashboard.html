@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Cost Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #FF9900;
+            margin-bottom: 10px;
+        }
+        .kpi-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0073e6;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .chart-container {
+            margin-top: 30px;
+        }
+        .github-button {
+            display: inline-block;
+            background-color: #24292e;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin: 15px 5px;
+            font-weight: bold;
+        }
+        .github-button:hover {
+            background-color: #444d56;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- GitHub Button at the Top -->
+    <a class="github-button" href="https://github.com/JDoo2002/AWS-Cost-Monitoring" target="_blank">
+        Explore Backend & Infrastructure on GitHub
+    </a>
+
+    <div class="container">
+        <h1>🚀 AWS Cost Monitoring Dashboard</h1>
+
+        <div class="kpi-box">
+            <div style="width:100%;">{{ kpi_html | safe }}</div>
+        </div>
+
+        <div class="chart-container">
+            <h2>📈 AWS Cost Trend (Last 7 Days)</h2>
+            <div>{{ line_html | safe }}</div>
+        </div>
+
+        <div class="chart-container">
+            <h2>📊 Daily AWS Cost Breakdown</h2>
+            <div>{{ bar_html | safe }}</div>
+        </div>
+
+        <!-- GitHub Button at the Bottom -->
+        <a class="github-button" href="https://github.com/JDoo2002/AWS-Cost-Monitoring" target="_blank">
+            Explore Backend & Infrastructure on GitHub
+        </a>
+    </div>
+
+</body>
+</html>
