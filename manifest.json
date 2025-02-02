@@ -1,0 +1,15 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://aws-cost-monitoring-logs/aws_cost_report_2025-02-02.csv"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "delimiter": ",",
+        "textqualifier": "\"",
+        "containsHeader": "true"
+    }
+}

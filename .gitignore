@@ -1,0 +1,12 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ignore AWS credentials
+.aws/
+config
+credentials
+
+# Ignore Lambda zip file
+lambda_function.zip
