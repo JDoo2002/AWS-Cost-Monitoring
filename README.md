@@ -28,7 +28,6 @@ It provides **real-time cost tracking**, **security insights**, and a **dashboar
 ![AWS Cost Dashboard](dashboard/aws-cost-dashboard.png)  
 
 ✉️ **Example Email Alert (AWS SES)**  
-_(Sent when costs exceed a threshold)_  
 ![Email Alert](dashboard/email-alert.png)  
 
 ---
